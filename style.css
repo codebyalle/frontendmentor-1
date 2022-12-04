@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:auto;
+    margin-top: 130px;
+    max-width: 600px;
+    
+
+}
+
+.container1 {
+    max-width: 300px;
+}
+
+.container-description {
+    background-color: hsl(30, 40%, 98%);
+    height: inherit;
+    border-radius: 15px;
+    padding: 35px;
+}
+
+.photo {
+    max-width:300px;
+    border-radius: 15px;
+}
+
+h3, p {
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 500;
+}
+
+h1, .preco, h3, button, p {
+    margin-top: 10px;
+
+}
+
+.preco1 {
+    color: hsl(158, 36%, 37%);
+    font-size: 30px;
+}
+
+.preco-antigo {
+    font-size: 11px;
+    color:rgb(167, 167, 167) ;
+}
+
+.titulo1 {
+    font-size: 28px;
+}
+
+.titulo3 {
+    color: rgb(167, 167, 167);
+    font-size: 14px;
+}
+
+.descricao {
+    color: rgb(167, 167, 167);
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+
+h1, span {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    
+}
+
+.preço1 {
+    color: hsl(158, 36%, 37%);
+    margin-bottom: 10px;
+}
+
+.botao {
+    width: 220px;
+    padding: 12px;
+    border-radius: 7px;
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    color: aliceblue;
+    font-weight: bold;
+
+}
+
+.botao:hover {
+    background-color: rgb(3, 88, 3);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    .photo {
+        background: no-repeat center;
+        background-size: cover; 
+
+    }
+}
